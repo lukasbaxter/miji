@@ -185,12 +185,11 @@ body {
   box-shadow: var(--shadow-medium);
 }
 
-.featured-card.tattoo {
-  background: linear-gradient(135deg, #2d2d2d 0%, #1a1a1a 100%);
-}
-
+.featured-card.tattoo,
 .featured-card.twitch {
-  background: linear-gradient(135deg, #9146ff 0%, #6441a5 100%);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 .featured-card.youtube {
@@ -226,6 +225,14 @@ body {
 .card-icon svg {
   width: 18px;
   height: 18px;
+}
+
+.featured-card.twitch .card-icon {
+  background: rgba(145, 70, 255, 0.85);
+}
+
+.featured-card.youtube .card-icon {
+  background: rgba(255, 0, 0, 0.85);
 }
 
 .card-title {
@@ -267,33 +274,27 @@ body {
 }
 
 .link-icon {
-  width: 40px;
-  height: 40px;
+  width: 42px;
+  height: 42px;
   display: flex;
   align-items: center;
   justify-content: center;
-  border-radius: 10px;
+  border-radius: 50%;
   flex-shrink: 0;
+  background: var(--bg-card);
+  box-shadow: var(--shadow-card);
+  color: var(--text-secondary);
+  transition: all 0.25s ease;
 }
 
 .link-icon svg {
-  width: 22px;
-  height: 22px;
+  width: 20px;
+  height: 20px;
 }
 
-.link-icon.discord {
-  background: #5865f2;
-  color: white;
-}
-
-.link-icon.email {
-  background: linear-gradient(135deg, var(--accent-pink) 0%, var(--accent-pink-hover) 100%);
-  color: white;
-}
-
-.link-icon.paypal {
-  background: #003087;
-  color: white;
+.link-card:hover .link-icon {
+  color: var(--accent-pink-hover);
+  background: var(--accent-pink-soft);
 }
 
 .link-text {
