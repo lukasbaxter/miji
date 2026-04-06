@@ -186,14 +186,12 @@ body {
 }
 
 .featured-card.tattoo,
-.featured-card.twitch {
+.featured-card.twitch,
+.featured-card.youtube,
+.featured-card.discord {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-}
-
-.featured-card.youtube {
-  background: linear-gradient(135deg, #ff0000 0%, #cc0000 100%);
 }
 
 .card-overlay {
@@ -233,6 +231,10 @@ body {
 
 .featured-card.youtube .card-icon {
   background: rgba(255, 0, 0, 0.85);
+}
+
+.featured-card.discord .card-icon {
+  background: rgba(88, 101, 242, 0.85);
 }
 
 .card-title {
@@ -409,6 +411,21 @@ body {
 }
 
 .hacoo-text {
+  font-size: 22px;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+
+.hco-card.temu {
+  background: #e55c20;
+  color: white;
+}
+
+.hco-card.temu:hover {
+  background: #f06a2c;
+}
+
+.temu-text {
   font-size: 22px;
   font-weight: 700;
   letter-spacing: 1px;

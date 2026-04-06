@@ -51,13 +51,13 @@ const MijiBio = () => {
         <section className="section" data-testid="section-featured">
           <h2 className="section-title">Featured</h2>
           <div className="featured-grid">
-            <a href="https://mijitats.com/" target="_blank" rel="noopener noreferrer" className="featured-card tattoo" style={{backgroundImage: "url(/images/featured/tattoo.webp)"}} data-testid="link-tattoo">
+            <a href="https://youtube.com/@itsmiji640" target="_blank" rel="noopener noreferrer" className="featured-card youtube" style={{backgroundImage: "url(/images/featured/youtube.png)"}} data-testid="link-youtube-featured">
               <div className="card-overlay">
                 <span className="card-icon">
-                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M12 19l7-7 3 3-7 7-3-3z"/><path d="M18 13l-1.5-7.5L2 2l3.5 14.5L13 18l5-5z"/><path d="M2 2l7.586 7.586"/><circle cx="11" cy="11" r="2"/></svg>
+                  <svg viewBox="0 0 24 24" fill="currentColor"><path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/></svg>
                 </span>
-                <span className="card-title">miji tats</span>
-                <span className="card-subtitle">book your appointment</span>
+                <span className="card-title">youtube</span>
+                <span className="card-subtitle">@itsmiji640</span>
               </div>
             </a>
             <a href="https://www.twitch.tv/miji640" target="_blank" rel="noopener noreferrer" className="featured-card twitch" style={{backgroundImage: "url(/images/featured/twitch.jpg)"}} data-testid="link-twitch-featured">
@@ -69,13 +69,13 @@ const MijiBio = () => {
                 <span className="card-subtitle">catch me live</span>
               </div>
             </a>
-            <a href="https://notmiji.com/youtube" target="_blank" rel="noopener noreferrer" className="featured-card youtube" data-testid="link-youtube-featured">
+            <a href="https://notmiji.com/discord" target="_blank" rel="noopener noreferrer" className="featured-card discord" style={{backgroundImage: "url(/images/featured/discord.png)"}} data-testid="link-discord-featured">
               <div className="card-overlay">
                 <span className="card-icon">
-                  <svg viewBox="0 0 24 24" fill="currentColor"><path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/></svg>
+                  <svg viewBox="0 0 24 24" fill="currentColor"><path d="M20.317 4.3698a19.7913 19.7913 0 00-4.8851-1.5152.0741.0741 0 00-.0785.0371c-.211.3753-.4447.8648-.6083 1.2495-1.8447-.2762-3.68-.2762-5.4868 0-.1636-.3933-.4058-.8742-.6177-1.2495a.077.077 0 00-.0785-.037 19.7363 19.7363 0 00-4.8852 1.515.0699.0699 0 00-.0321.0277C.5334 9.0458-.319 13.5799.0992 18.0578a.0824.0824 0 00.0312.0561c2.0528 1.5076 4.0413 2.4228 5.9929 3.0294a.0777.0777 0 00.0842-.0276c.4616-.6304.8731-1.2952 1.226-1.9942a.076.076 0 00-.0416-.1057c-.6528-.2476-1.2743-.5495-1.8722-.8923a.077.077 0 01-.0076-.1277c.1258-.0943.2517-.1923.3718-.2914a.0743.0743 0 01.0776-.0105c3.9278 1.7933 8.18 1.7933 12.0614 0a.0739.0739 0 01.0785.0095c.1202.099.246.1981.3728.2924a.077.077 0 01-.0066.1276 12.2986 12.2986 0 01-1.873.8914.0766.0766 0 00-.0407.1067c.3604.698.7719 1.3628 1.225 1.9932a.076.076 0 00.0842.0286c1.961-.6067 3.9495-1.5219 6.0023-3.0294a.077.077 0 00.0313-.0552c.5004-5.177-.8382-9.6739-3.5485-13.6604a.061.061 0 00-.0312-.0286zM8.02 15.3312c-1.1825 0-2.1569-1.0857-2.1569-2.419 0-1.3332.9555-2.4189 2.157-2.4189 1.2108 0 2.1757 1.0952 2.1568 2.419 0 1.3332-.9555 2.4189-2.1569 2.4189zm7.9748 0c-1.1825 0-2.1569-1.0857-2.1569-2.419 0-1.3332.9554-2.4189 2.1569-2.4189 1.2108 0 2.1757 1.0952 2.1568 2.419 0 1.3332-.946 2.4189-2.1568 2.4189Z"/></svg>
                 </span>
-                <span className="card-title">youtube</span>
-                <span className="card-subtitle">new channel!</span>
+                <span className="card-title">discord</span>
+                <span className="card-subtitle">join the server</span>
               </div>
             </a>
           </div>
@@ -126,9 +126,9 @@ const MijiBio = () => {
           </div>
         </section>
 
-        {/* HCO Section */}
-        <section className="section" data-testid="section-hco">
-          <h2 className="section-title">HCO</h2>
+        {/* Links Section */}
+        <section className="section" data-testid="section-links">
+          <h2 className="section-title">Links</h2>
           <div className="hco-grid">
             <a href="https://t.me/+YVs-SaFfj_RkYWZk" target="_blank" rel="noopener noreferrer" className="hco-card telegram" data-testid="link-hco-telegram">
               <svg viewBox="0 0 24 24" fill="currentColor"><path d="M11.944 0A12 12 0 0 0 0 12a12 12 0 0 0 12 12 12 12 0 0 0 12-12A12 12 0 0 0 12 0a12 12 0 0 0-.056 0zm4.962 7.224c.1-.002.321.023.465.14a.506.506 0 0 1 .171.325c.016.093.036.306.02.472-.18 1.898-.962 6.502-1.36 8.627-.168.9-.499 1.201-.82 1.23-.696.065-1.225-.46-1.9-.902-1.056-.693-1.653-1.124-2.678-1.8-1.185-.78-.417-1.21.258-1.91.177-.184 3.247-2.977 3.307-3.23.007-.032.014-.15-.056-.212s-.174-.041-.249-.024c-.106.024-1.793 1.14-5.061 3.345-.48.33-.913.49-1.302.48-.428-.008-1.252-.241-1.865-.44-.752-.245-1.349-.374-1.297-.789.027-.216.325-.437.893-.663 3.498-1.524 5.83-2.529 6.998-3.014 3.332-1.386 4.025-1.627 4.476-1.635z"/></svg>
@@ -138,6 +138,10 @@ const MijiBio = () => {
               <span className="hacoo-text">Hacoo</span>
               <span>hco app</span>
             </a>
+            <a href="https://app.temu.com/k/eka8dmanfn6" target="_blank" rel="noopener noreferrer" className="hco-card temu" data-testid="link-temu">
+              <span className="temu-text">Temu</span>
+              <span>shop my link</span>
+            </a>
           </div>
         </section>
 
@@ -145,7 +149,8 @@ const MijiBio = () => {
 
       {/* Footer */}
       <footer className="footer" data-testid="footer">
-        <p>© 2025 Miji · made with ♡</p>
+        <p>© 2026 Miji · made with ♡</p>
+        {/* Made by Lukas | IG: @lukasbaxte.r | lukas.baxter@gmail.com */}
       </footer>
     </div>
   );
