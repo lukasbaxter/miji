@@ -123,6 +123,12 @@ const MijiBio = () => {
                 <span className="promo-code">MIJI12</span>
               </div>
             </a>
+            <a href="https://www.amazon.com/dp/B0DFH2BCD2?maas=maas_adg_3FC564EF55AACB6ABCE9B884CD24DD0F_afap_abs&ref_=aa_maas&tag=maas" target="_blank" rel="noopener noreferrer" className="promo-card" data-testid="link-seapuri">
+              <div className="promo-content">
+                <span className="promo-brand">Seapuri Hair Serum</span>
+                <span className="promo-code">Shop on Amazon</span>
+              </div>
+            </a>
           </div>
         </section>
 
